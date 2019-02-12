@@ -1,0 +1,11 @@
+{
+    "presets": [
+        "@babel/preset-env" //entende o ambiente do projeto (browser, node, react-native etc)
+    
+    ],
+    "plugins": [
+
+        "@babel/plugin-proposal-object-rest-spread",//plugin para adicionar suporte ao operador spread (...)
+        "@babel/plugin-transform-async-to-generator", //plugin para dar suporte async no es6
+    ],
+}
